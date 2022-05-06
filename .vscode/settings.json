@@ -1,0 +1,6 @@
+{
+    "git.ignoredRepositories": [
+        "HTML"
+    ],
+    "git.autoRepositoryDetection": true
+}
