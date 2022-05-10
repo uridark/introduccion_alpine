@@ -12,7 +12,20 @@
     <script defer src="./js/alpine.js"></script>
   </head>
   <body>
-    
+    <div class="container" x-data="TabApp">
+     <button type="submit" x-on:click="selectedTab = 0">
+       Tab 1
+     </button>
+     <button type="submit" x-on:click="selectedTab = 1">
+       Tab 2
+     </button>
+     <button type="submit" x-on:click="selectedTab = 2">
+       Tab 3
+     </button>
+     <p x-show="selectedTab==0">Hola Alpine</p>
+     <p x-show="selectedTab==1">yih</p>
+     <p x-show="selectedTab==2">Hola Uriel</p>
+    </div>
     <script src="./js/TabApp.js"></script>
   </body>
 </html>
